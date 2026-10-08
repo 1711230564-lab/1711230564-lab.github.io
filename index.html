@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>许号 XuHao · 作品集 Portfolio 2026</title>
+<meta name="description" content="许号 XuHao 个人作品集 — 数字媒体艺术 / 交互设计 / 创意技术。交互装置、AIGC 视觉探索、网页设计与品牌视觉。">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+<div class="cursor" id="cursor" aria-hidden="true">
+  <span class="cursor-ring"></span>
+  <span class="cursor-dot"></span>
+  <span class="cursor-label">查看</span>
+</div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" data-cursor="首页">
+      <span class="cn">许号</span>
+      <span class="en">XUHAO</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#works">作品</a>
+      <a href="#about">关于</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== 首屏 ===== -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img id="hero-img" src="assets/hero.jpg" alt="趋·镜 交互装置现场">
+    </div>
+    <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-glow" id="hero-glow" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow reveal">PORTFOLIO VOL.1 — 2026</p>
+      <h1>
+        <span class="split name-cn">许号</span>
+        <span class="split name-en">XUHAO</span>
+      </h1>
+      <p class="role reveal">数字媒体艺术 · 交互设计 · 创意技术</p>
+      <p class="quote reveal">材料与交互的实验现场，未完的故事，待你入场触碰。</p>
+      <div class="hero-meta reveal">
+        <span>南通理工学院 · 传媒与设计学院</span>
+        <span class="dot">/</span>
+        <span>交互装置 · 视觉设计 · AIGC</span>
+      </div>
+      <div class="hero-actions reveal">
+        <a class="btn" href="#works" data-cursor="向下">查看作品</a>
+        <a class="btn ghost" href="assets/portfolio-2026.pdf" download data-cursor="下载">下载作品集 PDF</a>
+      </div>
+    </div>
+    <div class="hero-side" aria-hidden="true">
+      <span>SCROLL</span>
+      <i></i>
+    </div>
+  </section>
+
+  <!-- ===== 跑马灯 ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marquee">
+      <span>交互装置</span><em>◆</em><span class="it">INTERACTIVE INSTALLATION</span><em>◆</em>
+      <span>AIGC 视觉探索</span><em>◆</em><span class="it">VISUAL EXPERIMENT</span><em>◆</em>
+      <span>品牌视觉</span><em>◆</em><span class="it">BRAND IDENTITY</span><em>◆</em>
+      <span>网页设计</span><em>◆</em><span class="it">UI / WEB DESIGN</span><em>◆</em>
+      <span>创意技术</span><em>◆</em><span class="it">CREATIVE TECHNOLOGY</span><em>◆</em>
+    </div>
+  </div>
+
+  <!-- ===== 作品 ===== -->
+  <section class="section" id="works">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="num">01</span>
+        <h2 class="split">作品</h2>
+        <span class="en">SELECTED WORKS</span>
+      </div>
+
+      <ul class="index-list reveal">
+        <li><a href="#w1" data-cursor="跳转"><span class="i">01</span><span class="t">趋·镜 PHOTOTAXIS</span><span class="d">交互装置 · 2026</span></a></li>
+        <li><a href="#w2" data-cursor="跳转"><span class="i">02</span><span class="t">AIGC 视觉探索</span><span class="d">视觉实验 · 2026</span></a></li>
+        <li><a href="#w3" data-cursor="跳转"><span class="i">03</span><span class="t">个人作品集网站</span><span class="d">UI / 网页设计 · 2026</span></a></li>
+        <li><a href="#w4" data-cursor="跳转"><span class="i">04</span><span class="t">猛造 MENG ZAO</span><span class="d">品牌设计 · 2026</span></a></li>
+      </ul>
+
+      <!-- 01 -->
+      <article class="work reveal" id="w1">
+        <div class="work-text">
+          <p class="work-index">01 / 04</p>
+          <h3>趋·镜 <span class="en">PHOTOTAXIS</span></h3>
+          <p class="work-sub">基于昆虫趋光性的交互装置</p>
+          <p class="work-desc">以昆虫的趋光行为为隐喻，结合镜面反射与光的变化，构建一段关于欲望、凝视与自我认知的体验。项目从自然行为出发，经历概念生成、形态推演到结构与代码实现，最终落地为可进入的空间装置。</p>
+          <dl class="meta">
+            <div><dt>类型</dt><dd>交互装置</dd></div>
+            <div><dt>职责</dt><dd>项目负责人 · 概念设计 / 结构设计 / 视觉设计</dd></div>
+            <div><dt>工具</dt><dd>Arduino · TouchDesigner</dd></div>
+            <div><dt>年份</dt><dd>2026</dd></div>
+          </dl>
+          <button class="btn small" data-project="phototaxis">查看完整页面 · 8 页</button>
+        </div>
+        <div class="work-media">
+          <span class="ghost-num" aria-hidden="true">01</span>
+          <button class="page-card" data-project="phototaxis" data-cursor="查看" aria-label="查看 趋·镜 完整页面">
+            <img src="assets/page-04.png" alt="趋·镜 项目简介">
+            <span class="card-glow" aria-hidden="true"></span>
+          </button>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="work reverse reveal" id="w2">
+        <div class="work-text">
+          <p class="work-index">02 / 04</p>
+          <h3>AIGC 视觉探索 <span class="en">AI × VISUAL EXPLORATION</span></h3>
+          <p class="work-sub">生成式视觉实验</p>
+          <p class="work-desc">以生成式人工智能为工具展开的视觉探索，尝试把古典雕塑的质感与自然元素在数字空间里重新组合，寻找材料、光影与情绪之间新的表达方式。</p>
+          <dl class="meta">
+            <div><dt>类型</dt><dd>AIGC / 视觉设计</dd></div>
+            <div><dt>职责</dt><dd>创意构思 / AI 生成 / 后期处理</dd></div>
+            <div><dt>工具</dt><dd>生成式 AI 工具 · Photoshop</dd></div>
+            <div><dt>年份</dt><dd>2026</dd></div>
+          </dl>
+          <button class="btn small" data-project="aigc">查看完整页面 · 1 页</button>
+        </div>
+        <div class="work-media">
+          <span class="ghost-num" aria-hidden="true">02</span>
+          <button class="page-card" data-project="aigc" data-cursor="查看" aria-label="查看 AIGC 视觉探索 完整页面">
+            <img src="assets/page-11.png" alt="AIGC 视觉探索">
+            <span class="card-glow" aria-hidden="true"></span>
+          </button>
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="work reveal" id="w3">
+        <div class="work-text">
+          <p class="work-index">03 / 04</p>
+          <h3>个人作品集网站 <span class="en">PERSONAL PORTFOLIO WEBSITE</span></h3>
+          <p class="work-sub">网页视觉与界面设计</p>
+          <p class="work-desc">为个人作品集设计的一套网页视觉与信息架构方案。从视觉方向调研、情绪板、AI 辅助探索到界面设计，逐步建立统一的版式与视觉语言，目标是做一个探索 AI、视觉设计与创意的数字空间。</p>
+          <dl class="meta">
+            <div><dt>类型</dt><dd>UI / 网页设计</dd></div>
+            <div><dt>职责</dt><dd>视觉方向调研 / 情绪板 / 界面设计</dd></div>
+            <div><dt>工具</dt><dd>Figma · AI 辅助探索</dd></div>
+            <div><dt>年份</dt><dd>2026</dd></div>
+          </dl>
+          <button class="btn small" data-project="website">查看完整页面 · 2 页</button>
+        </div>
+        <div class="work-media">
+          <span class="ghost-num" aria-hidden="true">03</span>
+          <button class="page-card" data-project="website" data-cursor="查看" aria-label="查看 个人作品集网站 完整页面">
+            <img src="assets/page-12.png" alt="个人作品集网站设计">
+            <span class="card-glow" aria-hidden="true"></span>
+          </button>
+        </div>
+      </article>
+
+      <!-- 04 -->
+      <article class="work reverse reveal" id="w4">
+        <div class="work-text">
+          <p class="work-index">04 / 04</p>
+          <h3>猛造 <span class="en">MENG ZAO</span></h3>
+          <p class="work-sub">品牌视觉识别设计</p>
+          <p class="work-desc">「猛造」是面向年轻消费群体的创意融合餐饮品牌。品牌以中式饭碗为核心图腾，碗中嵌入“猛”字，粒子以 25 度角升起、蒸汽向上飘散，从中国饮食文化最朴素的元素出发，以几何化提炼与符号化表达，传递有劲儿、有温度、有态度的品牌个性。</p>
+          <dl class="meta">
+            <div><dt>类型</dt><dd>品牌设计</dd></div>
+            <div><dt>职责</dt><dd>品牌设计师 · 品牌概念 / Logo / 视觉系统</dd></div>
+            <div><dt>工具</dt><dd>Illustrator · Photoshop · AI 辅助生成</dd></div>
+            <div><dt>年份</dt><dd>2026</dd></div>
+          </dl>
+          <button class="btn small" data-project="mengzao">查看完整页面 · 5 页</button>
+        </div>
+        <div class="work-media">
+          <span class="ghost-num" aria-hidden="true">04</span>
+          <button class="page-card" data-project="mengzao" data-cursor="查看" aria-label="查看 猛造 完整页面">
+            <img src="assets/page-18.png" alt="猛造 品牌视觉识别设计">
+            <span class="card-glow" aria-hidden="true"></span>
+          </button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== 关于 ===== -->
+  <section class="section alt" id="about">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="num">02</span>
+        <h2 class="split">关于</h2>
+        <span class="en">ABOUT ME</span>
+      </div>
+
+      <div class="about-grid">
+        <figure class="about-art reveal" id="about-art">
+          <span class="art-frame" aria-hidden="true"></span>
+          <img src="assets/art.png" alt="作品集封面主视觉">
+        </figure>
+        <div class="about-text">
+          <p class="lead reveal">我擅长将多种艺术元素和技术手段融合，创造出具有视觉冲击力和互动性的动态装置作品。在设计过程中，我注重细节，追求完美，能够从独特的视角出发，为作品赋予深刻的内涵和意义。</p>
+
+          <div class="info-grid reveal">
+            <div>
+              <h4>教育背景</h4>
+              <p>南通理工学院 · 传媒与设计学院</p>
+              <p>数字媒体艺术 · 本科</p>
+              <p class="muted">2023.09 — 2027.06</p>
+            </div>
+            <div>
+              <h4>基本信息</h4>
+              <p>性别：男　年龄：22</p>
+              <p><a href="mailto:1711230564@qq.com">1711230564@qq.com</a></p>
+              <p><a href="tel:18361739758">18361739758</a></p>
+            </div>
+          </div>
+
+          <div class="courses reveal">
+            <h4>主修课程</h4>
+            <div class="chips">
+              <span>数字交互设计</span><span>交互装置设计</span><span>交互产品开发</span>
+              <span>虚拟现实技术</span><span>AI 设计应用综合</span><span>信息可视化设计</span>
+              <span>界面设计</span><span>数字音视频处理</span><span>网页设计</span>
+            </div>
+          </div>
+
+          <div class="skills reveal">
+            <h4>主要技能</h4>
+            <div class="chips tools">
+              <span>TouchDesigner</span><span>Figma</span><span>Illustrator</span>
+              <span>Photoshop</span><span>Premiere Pro</span><span>After Effects</span>
+              <span>Arduino IDE</span><span>Maya</span><span>剪映</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 联系 ===== -->
+  <section class="section contact" id="contact">
+    <div class="contact-glow" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="num">03</span>
+        <h2 class="split">联系</h2>
+        <span class="en">GET IN TOUCH</span>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-main reveal">
+          <p class="contact-kicker">LET'S TALK</p>
+          <p class="contact-line">期待与你聊聊交互、视觉与创意的下一步。</p>
+          <a class="mail" href="mailto:1711230564@qq.com">1711230564@qq.com</a>
+          <p class="contact-sub">
+            <a href="tel:18361739758">18361739758</a>
+            <span class="dot">/</span>
+            <a href="mailto:18361739758@163.com">18361739758@163.com</a>
+          </p>
+        </div>
+        <div class="contact-qr reveal">
+          <div class="qr-wrap">
+            <img src="assets/qr.png" alt="微信二维码">
+          </div>
+          <p>扫码添加微信</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 许号 XUHAO</span>
+      <span>数字媒体艺术 · 交互设计 · 创意技术</span>
+      <a href="#top">回到顶部 ↑</a>
+    </div>
+  </footer>
+
+</main>
+
+<!-- ===== 页面查看器 ===== -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lb-top">
+    <div class="lb-info">
+      <span class="lb-title" id="lb-title"></span>
+      <span class="lb-count" id="lb-count"></span>
+    </div>
+    <button class="lb-close" id="lb-close" aria-label="关闭">关闭 ✕</button>
+  </div>
+  <div class="lb-body">
+    <button class="lb-nav prev" id="lb-prev" aria-label="上一页">‹</button>
+    <div class="lb-stage" id="lb-stage">
+      <div class="lb-frame">
+        <img id="lb-img" src="" alt="">
+      </div>
+    </div>
+    <button class="lb-nav next" id="lb-next" aria-label="下一页">›</button>
+  </div>
+  <div class="lb-bottom">
+    <div class="lb-bar"><span id="lb-bar-fill"></span></div>
+    <div class="lb-thumbs" id="lb-thumbs"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
